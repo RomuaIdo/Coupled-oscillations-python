@@ -1,7 +1,5 @@
 # Mass-Spring System Simulator with Walls
 
-![Screenshot Placeholder](path/to/screenshot.png)
-
 ## Description
 
 This project is an interactive simulation of a coupled mass-spring system, implemented in Python using the Pygame library. The simulation includes walls at both ends, connected to the masses by additional springs, allowing dynamic visualization of normal modes of vibration, their frequencies, amplitudes, and phases.
@@ -89,11 +87,13 @@ Control Keys / Teclas de Controle
 Equations of Motion / Equações de Movimento:
 As equações de movimento são derivadas da segunda lei de Newton, considerando as forças exercidas pelas molas. Isso resulta em um sistema de equações diferenciais acopladas que podem ser representadas em forma matricial como:
 The equations of motion are derived from Newton's second law, considering the forces exerted by the springs. This results in a system of coupled differential equations that can be represented in matrix form as:
+
 ![Equation Placeholder](assets/Second-Law-of-Newton.png)
 
 Normal Modes / Modos Normais:
 Para resolver o sistema, são assumidas soluções harmônicas, levando a um problema de autovalores generalizado:
 To solve the system, harmonic solutions are assumed, leading to a generalized eigenvalue problem:
+
 ![Equation Placeholder](assets/Normal-mode-equation.png)
 
 Projection of Initial Conditions / Projeção das Condições Iniciais:
